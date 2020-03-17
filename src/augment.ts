@@ -71,8 +71,6 @@ export default function augment(global: any, options?: IAugmentOptions) {
         wt.nodeInteraction.waitNBlocks(blocksCount, withDefaults(options));
     global.currentHeight = (apiBase?: string) =>
         wt.nodeInteraction.currentHeight(apiBase || global.env.API_BASE);
-    global.transactionById = (txId: string, apiBase?: string) =>
-        wt.nodeInteraction.transactionById(txId, apiBase || global.env.API_BASE);
     global.waitForHeight = (target: number, options?: INodeRequestOptions) =>
         wt.nodeInteraction.waitForHeight(target, withDefaults(options));
     global.balance = (address?: string, apiBase?: string) =>
