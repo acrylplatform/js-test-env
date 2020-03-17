@@ -13,6 +13,9 @@
     "build": "npm run compileAugment && npm run copyFiles && npm run copyPackageJson",
     "prepublishOnly": "node ./scripts/checkFolder"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/acrylplatform/js-test-env.git"
