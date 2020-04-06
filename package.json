@@ -1,6 +1,6 @@
 {
   "name": "@acryl/js-test-env",
-  "version": "0.7.4",
+  "version": "0.7.5",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -28,7 +28,7 @@
   "homepage": "https://github.com/acrylplatform/js-test-env#readme",
   "dependencies": {
     "@acryl/ride-js": "^1.0.1",
-    "@acryl/acryl-transactions": "^3.16.7",
+    "@acryl/acryl-transactions": "^3.16.8",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
     "tslib": "^1.10.0"
